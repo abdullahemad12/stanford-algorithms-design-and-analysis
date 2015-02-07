@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programming Question 1", "Programming Question 1\Programming Question 1.vcxproj", "{25A0533E-628C-4E47-8C1D-694D4E17BB2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 2 - Programming Question 1", "Week 2 - Programming Question 1\Week 2 - Programming Question 1.vcxproj", "{8C1A800D-4278-426F-9D52-0DCE6E3AC165}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25A0533E-628C-4E47-8C1D-694D4E17BB2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25A0533E-628C-4E47-8C1D-694D4E17BB2A}.Debug|Win32.Build.0 = Debug|Win32
+		{25A0533E-628C-4E47-8C1D-694D4E17BB2A}.Release|Win32.ActiveCfg = Release|Win32
+		{25A0533E-628C-4E47-8C1D-694D4E17BB2A}.Release|Win32.Build.0 = Release|Win32
+		{8C1A800D-4278-426F-9D52-0DCE6E3AC165}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C1A800D-4278-426F-9D52-0DCE6E3AC165}.Debug|Win32.Build.0 = Debug|Win32
+		{8C1A800D-4278-426F-9D52-0DCE6E3AC165}.Release|Win32.ActiveCfg = Release|Win32
+		{8C1A800D-4278-426F-9D52-0DCE6E3AC165}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
