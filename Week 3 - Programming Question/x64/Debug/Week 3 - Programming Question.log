@@ -1,0 +1,20 @@
+﻿Build started 2/15/2015 12:30:01 PM.
+     1>Project "D:\PI\Standford_Algorithm\Week 3 - Programming Question\Week 3 - Programming Question.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(216): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(251): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(259): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(283): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(295): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(343): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\pi\standford_algorithm\week 3 - programming question\main.cpp(219): warning C4715: 'countMinCut' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PI\Standford_Algorithm\x64\Debug\Week 3 - Programming Question.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PI\Standford_Algorithm\x64\Debug\Week 3 - Programming Question.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PI\Standford_Algorithm\x64\Debug\Week 3 - Programming Question.lib" /MACHINE:X64 x64\Debug\main.obj
+         Week 3 - Programming Question.vcxproj -> D:\PI\Standford_Algorithm\x64\Debug\Week 3 - Programming Question.exe
+     1>Done Building Project "D:\PI\Standford_Algorithm\Week 3 - Programming Question\Week 3 - Programming Question.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34
