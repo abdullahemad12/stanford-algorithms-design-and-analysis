@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 4 - Programming Questi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 5 - Programming Question", "Week 5 - Programming Question\Week 5 - Programming Question.vcxproj", "{73F31DE4-52D4-429E-8FFC-EB9A945BE39A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 6 - Programming Question 1", "Week 6 - Programming Question 1\Week 6 - Programming Question 1.vcxproj", "{FA5E7158-6207-46DA-8625-396D7AD55E36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 6 - Programming Question 2", "Week 6 - Programming Question 2\Week 6 - Programming Question 2.vcxproj", "{4EC13681-E560-44D2-951B-BBAC349F0AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +41,14 @@ Global
 		{73F31DE4-52D4-429E-8FFC-EB9A945BE39A}.Debug|Win32.Build.0 = Debug|Win32
 		{73F31DE4-52D4-429E-8FFC-EB9A945BE39A}.Release|Win32.ActiveCfg = Release|Win32
 		{73F31DE4-52D4-429E-8FFC-EB9A945BE39A}.Release|Win32.Build.0 = Release|Win32
+		{FA5E7158-6207-46DA-8625-396D7AD55E36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA5E7158-6207-46DA-8625-396D7AD55E36}.Debug|Win32.Build.0 = Debug|Win32
+		{FA5E7158-6207-46DA-8625-396D7AD55E36}.Release|Win32.ActiveCfg = Release|Win32
+		{FA5E7158-6207-46DA-8625-396D7AD55E36}.Release|Win32.Build.0 = Release|Win32
+		{4EC13681-E560-44D2-951B-BBAC349F0AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EC13681-E560-44D2-951B-BBAC349F0AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{4EC13681-E560-44D2-951B-BBAC349F0AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{4EC13681-E560-44D2-951B-BBAC349F0AAA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
