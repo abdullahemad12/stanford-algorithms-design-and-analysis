@@ -29,6 +29,26 @@ void printMap(unordered_map<long long int, unordered_set<long long int>> & hashT
 	}
 }
 
+void printMapToFile(unordered_map<long long int, unordered_set<long long int>> & hashTbl) {
+	ofstream myfile;
+	 myfile.open ("AfterBinning.csv");
+
+	for (unordered_map<long long int, unordered_set<long long int>>::iterator itMap = hashTbl.begin(); itMap != hashTbl.end(); itMap++) {
+		myfile << itMap->first << "-->: ";
+		
+		for (unordered_set<long long int>::iterator itSet = itMap->second.begin(); itSet != itMap->second.end(); itSet++) {
+			myfile << *itSet << " " ;
+		}
+		myfile << endl;
+	}
+	myfile.close();
+	return;
+}
+
+ 
+ 
+  
+
 
 //void clearChain(map<long long int, set<long long int>> & hashTbl) {
 //	for (map<long long int, set<long long int>>::iterator itMap = hashTbl.begin(); itMap != hashTbl.end(); itMap++) {
@@ -126,6 +146,7 @@ int main() {
 	cout << "Finish reading file " << endl;
 
 	//printMap(hashTbl);
+	printMapToFile(hashTbl);
 	
 	//Count2Sum(hashTbl,arrIn, arrOut, binValue);
 

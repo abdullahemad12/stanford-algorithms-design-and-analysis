@@ -70,27 +70,6 @@ void readAdjacentList(string filename, vector<vector<long int> > & graphFromFile
 		std::cout << ex.what() << endl;
 	}
 
-	/*
-	try {
-		ifstream inputFile;
-
-		while(inputFile >> head >> tail) {
-				
-			vector<long int> item;
-			long int headV = stol(head);
-			long int tailV = stol(tail);
-
-			item.emplace_back(headV);
-			item.emplace_back(tailV);
-
-			visited.emplace(headV, false);
-			visited.emplace(tailV, false);
-		}
-
-	}catch(exception ex) {
-		std::cout << ex.what() << endl;
-	}
-	*/
 }
 
 void bulidGraph( map<long int, vector<long int> > & adjacentList, map<long int, vector<long int> > & rAdjacentList, vector<vector<long int> > & graphFromFile) {
