@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part 2 - Week 1 - Programmi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part 2 - Week 2 - Programming Question 1", "Part 2 - Week 2 - Programming Question 1\Part 2 - Week 2 - Programming Question 1.vcxproj", "{EB308617-772E-4DAE-8F5A-EB2A9CA484B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part 2 - Week 2 - Programming Question 2", "Part 2 - Week 2 - Programming Question 2\Part 2 - Week 2 - Programming Question 2.vcxproj", "{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,16 @@ Global
 		{EB308617-772E-4DAE-8F5A-EB2A9CA484B1}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{EB308617-772E-4DAE-8F5A-EB2A9CA484B1}.Release|Win32.ActiveCfg = Release|Win32
 		{EB308617-772E-4DAE-8F5A-EB2A9CA484B1}.Release|Win32.Build.0 = Release|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Debug|Win32.Build.0 = Debug|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Release|Win32.ActiveCfg = Release|Win32
+		{5738B0E9-1441-45C3-BBC4-3B83F9E9CAF2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
