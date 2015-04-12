@@ -88,9 +88,10 @@ void UpdateMergeNode(vector<Node>& nodes, Node& node1, Node& node2) {
 	// only parent node update size
 	node2.size = node1.size + node2.size;
 
+	long int node1S = node1.node;
 	// update all children of node1 points to node2
 	for (auto it = nodes.begin(); it != nodes.end(); it++) {
-		if (it->node == node1.node)
+		if (it->node == node1S)
 			it->node = node2.node;
 	}
 
